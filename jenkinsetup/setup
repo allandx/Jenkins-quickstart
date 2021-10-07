@@ -1,0 +1,18 @@
+To set up your installation, visit Jenkins on its default port, 8080, using your server domain name or IP address: http://your_server_ip_or_domain:8080
+
+You should see the "Unlock Jenkins screen, getting started"
+
+Use cl to display the password
+
+***sudo cat /var/lib/jenkins/secrets/initialAdminPassword***
+
+Input pw and click continue
+
+Select "Install suggested plugins"
+
+Create your own admin user and pw now
+
+Receive your own jenkins server URL!
+
+Now jenkins is ready to be use
+
