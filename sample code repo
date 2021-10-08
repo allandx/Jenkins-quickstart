@@ -1,0 +1,3 @@
+For practice purpose, please refer to this repo to upload into your jenkins server. For e.g., setting up a webhook to trigger the build to run when changes are made to a repository. 
+
+Link: https://github.com/linuxacademy/cicd-pipeline-train-schedule-jenkins
