@@ -1,0 +1,8 @@
+Building an app (using gradle build)as a freestyle jenkins project:
+
+- Configure Jenkins to authenticate with GitHub server. Generate an access token in the fork copy, include API url
+- Create a freestyle project in Jenkins and configure it to include git as scm and its project URL
+- Set up a webhook to trigger the build whenever changes are made to the repository in GitHub - how: under build trigger( "github hook trigger for GITScm polling)
+- Configure the build to archive output as a build artifact
+
+Sample jenkins build :[https://github.com/linuxacademy/cicd-pipeline-train-schedule-jenkins](https://github.com/linuxacademy/cicd-pipeline-train-schedule-jenkins)
